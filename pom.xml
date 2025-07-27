@@ -1,5 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    
+    <!-- Basic project information -->
+    
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.pahana</groupId>
     <artifactId>PahanaEduBookshopBilling</artifactId>
@@ -7,10 +10,14 @@
     <packaging>war</packaging>
     <name>PahanaEduBookshopBilling-1.0</name>
     
+    <!-- Project properties -->
+    
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <jakartaee>10.0.0</jakartaee>
     </properties>
+    
+    <!-- Project dependencies -->
     
     <dependencies>
         <dependency>
@@ -19,10 +26,16 @@
             <version>${jakartaee}</version>
             <scope>provided</scope>
         </dependency>
+        
     </dependencies>
     
+    <!-- Build configuration --> 
+    
     <build>
-        <plugins>
+        <plugins> 
+            
+            <!-- Compiler plugin (specifies Java version to use for compilation) -->
+            
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -31,7 +44,10 @@
                     <source>11</source>
                     <target>11</target>
                 </configuration>
-            </plugin>
+            </plugin> 
+            
+            <!-- WAR plugin (builds WAR file for deployment) -->  
+            
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
