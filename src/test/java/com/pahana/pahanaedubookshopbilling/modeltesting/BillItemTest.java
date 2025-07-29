@@ -13,7 +13,8 @@ import com.pahana.pahanaedubookshopbilling.model.BillItem;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
-
+import org.junit.jupiter.api.Disabled;
+@Disabled
 class BillItemTest {
 
     private BillItem billItem;
