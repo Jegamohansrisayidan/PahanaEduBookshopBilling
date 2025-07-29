@@ -2,32 +2,18 @@
 
 A comprehensive web-based billing and inventory management system for bookshop, built with Java EE (Jakarta EE) and MySQL.
 
-```
- ____       _                        _____    _         
-|  _ \ __ _| |__   __ _ _ __   __ _  | ____|__| |_   _   
-| |_) / _` | '_ \ / _` | '_ \ / _` | |  _| / _` | | | |  
-|  __/ (_| | | | | (_| | | | | (_| | | |__| (_| | |_| |  
-|_|   \__,_|_| |_|\__,_|_| |_|\__,_| |_____\__,_|\__,_|  
-    ____              _        _                        
-   | __ )  ___   ___ | | _____| |__   ___  _ __         
-   |  _ \ / _ \ / _ \| |/ / __| '_ \ / _ \| '_ \        
-   | |_) | (_) | (_) |   <\__ \ | | | (_) | |_) |       
-   |____/ \___/ \___/|_|\_\___/_| |_|\___/| .__/        
-                                          |_|           
-```
-
 ## 🚀 Features
 
 ### 👥 User Management
 ```
-📋 Role-based Access Control    → Admin and Cashier roles
+📋 Role-based Access Control   → Admin and Cashier roles
 🔐 Secure Authentication       → BCrypt password hashing  
-⚙️  User CRUD Operations       → Add, edit, delete users (admin only)
+⚙️ User CRUD Operations        → Add, edit, delete users (admin only)
 ```
 
 ### 👤 Customer Management
 ```
-📝 Customer Registration       → Profile management with contact details
+📝 Customer Registration      → Profile management with contact details
 📊 Account Tracking           → Units consumed and purchase history
 🔄 Status Management          → Active/Inactive customer states
 ```
@@ -35,23 +21,23 @@ A comprehensive web-based billing and inventory management system for bookshop, 
 ### 📦 Inventory Management
 ```
 📚 Complete Catalog           → Books/items with detailed information
-📈 Stock Tracking            → Real-time inventory levels
+📈 Stock Tracking             → Real-time inventory levels
 🏷️  Category Organization     → Author, publisher, category-wise sorting
-💰 Price Management          → Dynamic pricing and cost tracking
+💰 Price Management           → Dynamic pricing and cost tracking
 ```
 
 ### 🧾 Billing System
 ```
 ⚡ Real-time Generation       → Instant bill creation
-💳 Payment Methods           → Cash, Card, Digital payments
-🎯 Calculations              → Automatic discount and tax computation
-📨 Email Integration         → PDF bills sent automatically
-📚 History Tracking          → Complete bill audit trail
+💳 Payment Methods            → Cash, Card, Digital payments
+🎯 Calculations               → Automatic discount and tax computation
+📨 Email Integration          → PDF bills sent automatically
+📚 History Tracking           → Complete bill audit trail
 ```
 
 ### 🎨 Design Patterns
 ```
-👁️  Observer Pattern          → Email notifications for bill events
+👁️ Observer Pattern          → Email notifications for bill events
 🏭 Factory Pattern           → DAO layer abstraction
 🔧 Service Layer             → Clean business logic separation
 ```
@@ -67,7 +53,7 @@ Email       : Jakarta Mail API
 PDF         : Custom PDF Generation
 Build       : Maven
 Server      : Apache Tomcat 10+
-Patterns    : Observer, Factory, DAO, MVC
+Patterns    : Observer, Factory, DAO, MVC etc
 ```
 
 ## 📋 Prerequisites
@@ -186,14 +172,14 @@ java com.pahana.pahanaedubookshopbilling.service.CreateInitialUsers
 ```java
 // Default Credentials Created:
 Admin User:
-  Username: "Admin"
-  Password: "Sai18"
-  Role: "admin"
+  Username: "--------"
+  Password: "--------"
+  Role: "------"
 
 Cashier User:
-  Username: "Cashier" 
-  Password: "Thuwa03"
-  Role: "cashier"
+  Username: "-------" 
+  Password: "-------"
+  Role: "-------"
 ```
 
 ### 5. 🚀 Deployment
@@ -394,7 +380,7 @@ copies of the Software.
 ```
 🧑‍💻 Jegamohan Srisayidan
 📧 jegamohansrisayidan@gmail.com  
-🐙 GitHub: @jegamohan
+🐙 GitHub: @jegamohansrisayidan
 🌍 Location: Sri Lanka
 ```
 
@@ -444,6 +430,6 @@ copies of the Software.
 
 **⭐ Star this repository if it helped you! ⭐**
 
-Made with ❤️ by [Jegamohan Srisayidan](https://github.com/jegamohan)
+Made with ❤️ by [Jegamohan Srisayidan](https://github.com/jegamohansrisayidan)
 
 </div>
