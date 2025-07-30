@@ -53,6 +53,23 @@
             <version>8.0.33</version>
         </dependency>
         
+        <!-- BCrypt (for password hashing and security) -->
+        
+        <dependency>
+            <groupId>org.mindrot</groupId>
+            <artifactId>jbcrypt</artifactId>
+            <version>0.4</version>
+        </dependency>
+
+        <!-- JSP API (provided by server) -->
+        
+        <dependency>
+            <groupId>jakarta.servlet.jsp</groupId>
+            <artifactId>jakarta.servlet.jsp-api</artifactId>
+            <version>3.1.1</version>
+            <scope>provided</scope>
+        </dependency>
+        
     </dependencies>
     
     <!-- Build configuration --> 
