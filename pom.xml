@@ -29,9 +29,51 @@
             <version>${jakartaee}</version>
             <scope>provided</scope>
         </dependency>
+
+        <!-- iText PDF library (for PDF generation/handling) -->
+        
+        <dependency>
+            <groupId>com.itextpdf</groupId>
+            <artifactId>itext7-core</artifactId>
+            <version>7.2.3</version>
+            <type>pom</type>
+        </dependency>
+
+        <!-- BCrypt (for password hashing and security) -->
+        
+        <dependency>
+            <groupId>org.mindrot</groupId>
+            <artifactId>jbcrypt</artifactId>
+            <version>0.4</version>
+        </dependency>
+
+        <!-- JSP API (provided by server) -->
+        
+        <dependency>
+            <groupId>jakarta.servlet.jsp</groupId>
+            <artifactId>jakarta.servlet.jsp-api</artifactId>
+            <version>3.1.1</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- Jakarta Mail (for sending emails) -->
+        
+        <dependency>
+            <groupId>com.sun.mail</groupId>
+            <artifactId>jakarta.mail</artifactId>
+            <version>2.0.1</version>
+        </dependency>
+
+        <!-- JSTL (JSP Standard Tag Library) for using tags in JSP pages -->
+        
+        <dependency>
+            <groupId>jakarta.servlet.jsp.jstl</groupId>
+            <artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
+            <version>3.0.0</version>
+        </dependency>
         
         <!-- J - Unit Testing -->
-         
+        
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
@@ -39,12 +81,13 @@
             <scope>test</scope>
         </dependency>
 
+        
         <dependency>
             <groupId>org.glassfish.web</groupId>
             <artifactId>jakarta.servlet.jsp.jstl</artifactId>
             <version>3.0.1</version>
         </dependency>
-        
+
         <!-- MySQL JDBC Driver (for database connectivity) -->
         
         <dependency>
@@ -52,7 +95,6 @@
             <artifactId>mysql-connector-j</artifactId>
             <version>8.0.33</version>
         </dependency>
-        
     </dependencies>
     
     <!-- Build configuration --> 
