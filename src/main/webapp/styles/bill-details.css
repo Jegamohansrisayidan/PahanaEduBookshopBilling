@@ -1,0 +1,177 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+
+/* 
+    Created on : 16 Jul 2025, 18:12:38
+    Author     : Jegamohan Srisayidan
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#printable {
+    background: #fff;
+    max-width: 900px;
+    width: 100%;
+    padding: 40px 50px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+/* Header container: flex with space between */
+
+.bill-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.bill-title {
+    font-weight: 900;
+    font-size: 2.25rem;
+    color: #2c3e50;
+    margin: 0;
+}
+
+.bill-date {
+    font-weight: 600;
+    color: #7f8c8d;
+    font-size: 1.1rem;
+    white-space: nowrap;
+}
+
+/* Bill info with vertical stack */
+
+.bill-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.bill-info div {
+    flex: 1 1 30%;
+    min-width: 200px;
+}
+
+.bill-info strong {
+    color: #34495e;
+    font-weight: 600;
+}
+
+.bill-info p {
+    margin: 4px 0 0 0;
+    color: #555;
+    font-size: 1rem;
+}
+
+/* Table container for horizontal scroll on small */
+
+.table-responsive {
+    overflow-x: auto;
+    margin-bottom: 40px;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+}
+
+thead tr {
+    background-color: #34495e;
+    color: white;
+    font-weight: 700;
+}
+
+thead th {
+    padding: 14px 18px;
+    text-align: left;
+    user-select: none;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody td {
+    padding: 14px 18px;
+    color: #2c3e50;
+    font-size: 1rem;
+}
+
+tfoot tr {
+    background-color: #ecf0f1;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+tfoot th {
+    text-align: right;
+    padding: 14px 18px;
+}
+
+/* Buttons container centered with spacing */
+
+.noprint {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.noprint button, .noprint a {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.noprint button:hover, .noprint a:hover {
+    background-color: #1c5980;
+}
+
+/* Print media adjustments */
+
+@media print {
+    body {
+        background: white;
+        padding: 0;
+        display: block;
+    }
+    #printable {
+        box-shadow: none;
+        border-radius: 0;
+        max-width: 100%;
+        width: 100%;
+        padding: 0;
+    }
+    .noprint {
+        display: none !important;
+    }
+}
