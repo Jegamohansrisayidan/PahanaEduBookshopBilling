@@ -59,7 +59,7 @@ Patterns    : Observer, Factory, DAO, MVC etc
 ## 📋 Prerequisites
 
 ```bash
-☕ Java 11 or higher
+☕ Java 10 or higher
 🐱 Apache Tomcat 10+
 🐬 MySQL 8.0+
 📦 Maven 3.6+
@@ -347,7 +347,7 @@ open http://localhost:8080/pahana-billing
 
 ```bash
 # Fork the repository on GitHub
-git clone https://github.com/yourusername/pahana-edu-bookshop.git
+git clone [https://github.com/yourusername/pahana-edu-bookshop.git](https://github.com/Jegamohansrisayidan/PahanaEduBookshopBilling.git )
 
 # Create feature branch
 git checkout -b feature/awesome-feature
@@ -359,20 +359,6 @@ git commit -am 'Add awesome feature'
 git push origin feature/awesome-feature
 
 # Create Pull Request on GitHub
-```
-
-## 📝 License
-
-```
-MIT License
-
-Copyright (c) 2024 Jegamohan Srisayidan
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software.
 ```
 
 ## 👨‍💻 Author
@@ -430,6 +416,6 @@ copies of the Software.
 
 **⭐ Star this repository if it helped you! ⭐**
 
-Made with ❤️ by [Jegamohan Srisayidan](https://github.com/jegamohansrisayidan)
+Made with ❤️ by [Jegamohan Srisayidan](https://github.com/Jegamohansrisayidan)
 
 </div>
